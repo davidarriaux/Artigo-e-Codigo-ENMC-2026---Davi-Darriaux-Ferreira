@@ -1,0 +1,11 @@
+# Pastas/arquivos de IDE e de compilacao
+.idea/
+.vscode/
+cmake-build-*/
+build/
+*.exe
+*.o
+*.obj
+
+# Resultados gerados pelo programa
+resultado_*.txt

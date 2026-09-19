@@ -1,0 +1,20 @@
+Ordem da quadratura:
+16
+Número de Regiões:
+4
+Número de Zonas Materiais:
+4
+Mapeamento regiões:
+0 1 2 3
+Tamanho das Regiões:
+40 30 20 10
+Número de Nodos:
+4 3 2 1
+Condições de contorno (xb,xc):
+0 0
+Seção de choque total:
+2 2 1.5 1.2
+Seção de choque de espalhamento:
+1.998 1.8 0.75 0.36
+Fonte Externa:
+1 0.8 0 0
