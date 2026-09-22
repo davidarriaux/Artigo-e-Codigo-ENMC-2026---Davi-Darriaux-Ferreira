@@ -346,8 +346,8 @@ Para criar um problema novo, copie `Prob_Ex_2.txt`, edite os valores e rode o pr
 Para quem quiser ler ou modificar:
 
 * **`Problema.cpp`** — lê e valida o `.txt`; calcula a quadratura de Gauss-Legendre (método de Golub-Welsch), a lista de nodos e as espessuras.
-* **`NBI.cpp`** — para cada região calcula autovalores/autovetores, o fluxo particular e as matrizes resposta **R** e **S**; contém as varreduras do Full NBI e do Partial NBI/SOR-PNBI e o critério de convergência.
-* **`Relaxacao.cpp`** — as estratégias de escolha do *w* (métodos 0 e 3–6). A diagonal de **T** para N = 2 é calculada por recorrência em O(n).
+* **`NBI.cpp`** — para cada região calcula autovalores/autovetores, o fluxo particular e as matrizes resposta **G** e **S**; contém as varreduras do Full NBI e do Partial NBI/SOR-PNBI e o critério de convergência.
+* **`Relaxacao.cpp`** — as estratégias de escolha do *w* (métodos 0 e 3–6). A diagonal de **M** para N = 2 é calculada por recorrência em O(n).
 * **`Metodos.cpp`** — executa o método escolhido (várias vezes, se pedido) e mede o tempo.
 * **`main.cpp`** — menu, leitura do teclado e impressão/gravação dos resultados.
 
@@ -360,4 +360,6 @@ Parâmetros de convergência (tolerância `1e-10` e máximo de `100000` iteraç�
 * A biblioteca **Eigen** (pasta `src/Eigen`) é distribuída sob a licença MPL 2.0 — veja `LICENSE_Eigen_MPL2.txt` e https://eigen.tuxfamily.org.
 * Ao usar este código em trabalhos acadêmicos, cite o artigo: *Técnica de sobre-relaxação sucessiva para o esquema iterativo de inversão nodal parcial em simulações de transporte S<sub>N</sub> de partículas neutras em geometria unidimensional cartesiana*.
 * Artigo e código: https://github.com/davidarriaux/Artigo-e-Codigo-ENMC-2026---Davi-Darriaux-Ferreira
-* Autor: **Davi Darriaux Ferreira** — davi.darriaux@iprj.uerj.br (IPRJ/UERJ).
+* Autores: **Davi Darriaux Ferreira** — davi.darriaux@iprj.uerj.br (IPRJ/UERJ);
+*          **Leonardo Rodrigues da Costa Moraes** (IPRJ/UERJ);
+*          **Ricardo Carvalho de Barros** (IPRJ/UERJ).
