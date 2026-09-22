@@ -8,11 +8,11 @@ Ele resolve a equação de transporte de partículas (ordenadas discretas, geome
 
 | Nº | Método |
 |----|--------|
-| 0 | SOR-PNBI com o ***w* ótimo** (menor raio espectral de T) — **lento**, só para problemas pequenos |
+| 0 | SOR-PNBI com o ***w* ótimo** (menor raio espectral de T) — **lento** |
 | 1 | **Full NBI** |
 | 2 | **Partial NBI** (equivale ao SOR-PNBI com *w* = 1) |
-| 3 | SOR-PNBI com **um *w* geral**, escolhido pelo maior módulo da diagonal de T |
-| 4 | SOR-PNBI com **um *w* geral**, escolhido pela variância da diagonal de T |
+| 3 | SOR-PNBI com **um *w* geral**, escolhido pelo maior módulo da diagonal de M |
+| 4 | SOR-PNBI com **um *w* geral**, escolhido pela variância da diagonal de M |
 | 5 | SOR-PNBI com **um *w* por região** (maior módulo da diagonal) |
 | 6 | SOR-PNBI com **um *w* por região** (variância da diagonal) |
 | 7 | SOR-PNBI com um ***w* informado por você** (para testar valores de *w* à vontade) |
@@ -258,7 +258,7 @@ sor_pnbi Problemas/Prob_Ex_2.txt 7 1 1.3    (método 7, 1 execução, w = 1.3)
 
 ### Sobre o método 0 (w ótimo)
 
-Para achar o *w* ótimo o programa monta a matriz de iteração **T** inteira, de tamanho `N × (nodos + 1)`, e calcula seus autovalores várias vezes. No Exemplo 2 (T de 176 × 176) leva menos de 1 segundo; com N = 8 e 100 nodos (T de 808 × 808) levou cerca de 50 s; no Exemplo 1 original (N = 32, T de 3232 × 3232) leva **muito** mais. Use-o em problemas pequenos, ou use o método 7 com um *w* que você já conheça.
+Para achar o *w* ótimo o programa monta a matriz de iteração **T** inteira, de tamanho `N × (nodos + 1)`, e calcula seus autovalores várias vezes. No Exemplo 2 (M de 176 × 176) leva menos de 1 segundo; com N = 8 e 100 nodos (M de 808 × 808) levou cerca de 50 s; no Exemplo 1 original (N = 32, M de 3232 × 3232) leva **muito** mais. Use-o em problemas pequenos, ou use o método 7 com um *w* que você já conheça.
 
 ---
 
