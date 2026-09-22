@@ -361,5 +361,5 @@ Parâmetros de convergência (tolerância `1e-10` e máximo de `100000` iteraç�
 * Ao usar este código em trabalhos acadêmicos, cite o artigo: *Técnica de sobre-relaxação sucessiva para o esquema iterativo de inversão nodal parcial em simulações de transporte S<sub>N</sub> de partículas neutras em geometria unidimensional cartesiana*.
 * Artigo e código: https://github.com/davidarriaux/Artigo-e-Codigo-ENMC-2026---Davi-Darriaux-Ferreira
 * Autores: **Davi Darriaux Ferreira** — davi.darriaux@iprj.uerj.br (IPRJ/UERJ);
-*          **Leonardo Rodrigues da Costa Moraes** (IPRJ/UERJ);
-*          **Ricardo Carvalho de Barros** (IPRJ/UERJ).
+  **Leonardo Rodrigues da Costa Moraes** - lrcmoraes@iprj.uerj.br (IPRJ/UERJ);
+* **Ricardo Carvalho de Barros** - ricardob@iprj.uerj.br (IPRJ/UERJ).
