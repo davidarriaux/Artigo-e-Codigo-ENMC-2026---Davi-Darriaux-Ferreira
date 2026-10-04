@@ -1,0 +1,20 @@
+Ordem da quadratura N (numero PAR: 2, 4, 6, 8, 16, 32...):
+8
+Numero de Regioes do problema (nI):
+1
+Numero de Zonas Materiais distintas (nZM):
+1
+Mapeamento regiao -> material (nI valores; material comeca em 0):
+0
+Tamanho de cada regiao, em cm (nI valores):
+10
+Numero de nodos em que cada regiao e dividida (nI valores):
+10
+Condicoes de contorno: fluxo incidente na esquerda e na direita (xb xc):
+0 0
+Secao de choque total de cada material - sigma_t (nZM valores):
+1
+Secao de choque de espalhamento de cada material - sigma_s (nZM valores; deve ser menor que sigma_t):
+0.5
+Fonte externa fixa de cada material - Q (nZM valores):
+1

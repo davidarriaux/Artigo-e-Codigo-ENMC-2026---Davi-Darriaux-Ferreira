@@ -9,7 +9,7 @@ Trabalho apresentado no XXIX ENMC / XVII ECTM (Bento Gonçalves - RS, 2026).
 ## Conteúdo deste repositório
 
 - **Artigo**: versão completa do trabalho submetido ao evento, com a fundamentação teórica, a metodologia e os resultados numéricos obtidos.
-- **`Codigo ENMC 2026/`**: pasta com a implementação numérica do esquema SOR-PNBI e das estratégias de estimativa do fator de relaxação ω. Dentro dela há um README próprio, explicando como instalar as dependências e executar o código.
+- **`Programa_ENMC_2026/`**: implementação numérica do esquema SOR-PNBI e das estratégias de estimativa do fator de relaxação ω, já **pronta para usar** — um executável para Windows, Linux e macOS (não é preciso instalar nada nem compilar) e os arquivos de problema (exemplos do artigo e um modelo genérico, que pode ser adaptado para qualquer problema de transporte 1D de fonte fixa). Dentro dela há um README próprio, explicando como baixar e executar.
 
 ## Autores
 
